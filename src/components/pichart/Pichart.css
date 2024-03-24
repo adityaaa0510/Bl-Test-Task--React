@@ -1,0 +1,123 @@
+.containers{
+    display:flex;
+    /* border:2px solid gray; */
+    margin-top:82px;
+        justify-content:center;
+    
+}
+.img-world{
+    width:80%;
+    height:77%;
+}
+.wrap-chart-heading{
+    display:flex;
+    /* border:2px solid gray; */
+    flex-direction:column;
+    margin-left:44px;
+    height: auto;
+    background-color:white;
+    width:87%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+    border-radius:20px;
+    /* justify-content:center; */
+}
+.chart-img{
+    display:flex;
+    justify-content:space-evenly;
+    margin-left:40px;
+    margin-top:20px
+}
+.state-chart-image{
+    display:flex;
+    margin-top:20px;
+}
+.state-case{
+
+    display:grid;
+    gap:10px;
+    width:60%;
+    margin-left:20px;
+    margin-top:20px;
+}
+@media screen and (max-width: 1450px) {
+    .wrap-chart-heading{
+    
+        width:90%;
+        margin-left:50px;
+        
+    }
+  }
+@media screen and (max-width: 1250px) {
+    .img-world{
+       display:none;
+    }
+ 
+  }
+  @media screen and (max-width: 820px) {
+    .img-world{
+       display:none;
+    }
+    .state-chart-image {
+       flex-direction:column;
+       gap:20px;
+    }
+    .state-case{
+
+       
+        width:90%;
+        margin-left:10px;
+        
+    }
+    .wrap-chart-heading {
+        margin-left:81px;
+    }
+  }
+
+  @media only screen and (max-width: 570px) {
+    .chart-img > div > div > canvas {
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .wrap-chart-heading {
+        margin-left: 63px;
+        width: 81%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .wrap-chart-heading {
+        margin-left: 45px;
+
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .wrap-chart-heading {
+        margin-left: 27px;
+
+    }
+    .chart-pie{
+        margin-left: -56px;
+    }
+    .containers {
+    
+      margin-top: 65px;
+      
+  }
+  }
+  @media screen and (min-width: 420px) {
+  
+    .containers {
+    
+      margin-top: 65px;
+      
+  }
+  }
+  @media screen and (max-width: 370px) {
+    .wrap-chart-heading {
+        margin-left: 42px;
+
+    }
+   
+  }
